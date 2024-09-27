@@ -1,0 +1,402 @@
+/*  STYLE SHEET (base.css) */
+/* common version */
+/* INFRASTRUCTURE */
+	/* @charset "UTF-8"; */
+/* end infrastructure */
+
+/* SET DEFAULTS */
+html, html * {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	list-style-type: none;
+}
+em{
+		font-style: italic;
+		font-weight: bold;
+}
+.div a:link, .MSOE-Nav a:visited {
+	color:#000;
+	text-decoration:none;
+	line-height: 150%;
+}
+.div a:hover {
+	color:#fff;
+	text-decoration:none;
+}  
+/* end set defaults */
+
+/* PAGE SETUP */
+body {
+	/* setup background - under and around page */
+	background-image: url(Common/IMAGES/chip2.jpg); /* sets the background to the image */
+    background-size: cover; /* causes the image to cover the entire background - causing the color to not matter */
+}
+.page {   /* set the page parameters */
+    margin: 20px;  /* wraps space around the outside of the page */
+    max-width: 480px;  /*sets the page width - border to border */
+    padding: 5px 5px 5px 5px; /* forces all content just inside the border */ 
+    background-color: rgba(127,127,127,.5); /* places a light grey background with transparency on the page */
+    border: solid;
+    border-color: rgba(0,0,0,1);
+    border-radius: 10px;
+    float: left;
+}
+
+/* BANNER SETUP - my header */
+.banner {
+    background-color: rgba(127,127,127,.75); /* grey background with limited transparency */
+    border: solid;
+    border-color: rgba(154,6,9,1.00);
+	border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    float: left;
+}
+/* MSOE navigation section */
+.MSOE-Nav {
+	/* box elements */
+	width: 370px;
+	position: relative;
+	top:25px;
+	padding: 5px;
+	/* text elements */
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 30px;
+	font-family: Helvetica;
+	text-align:center;
+}
+.MSOE-Nav a:link, .MSOE-Nav a:visited {
+	color:#000;
+	text-decoration:none;
+	line-height: 150%;
+}
+.MSOE-Nav a:hover {
+	color:#fff;
+	text-decoration:none;
+}  
+
+/* TJ navigation section */
+.tj-logo {
+	/* box section */
+	width: 400px;
+	top: 10px;
+	padding-right: 10px;	
+	position: relative;
+	text-align:right;
+}
+.tj-logo h1{
+	/* text section */
+	color:rgba(255,255,255,1);
+	font-size:36px;
+	font-family: LucidaBri-Dem;
+	font-weight: bold;
+	text-shadow:#cc0000 1px 1px 1px;
+}
+.tj-nav {
+	/* box section */
+	width: 320px;
+	top: 20px;
+	right: 10px;
+	background-color: rgba(154,6,9,1.00);
+	position: relative;
+	/* text section */
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+	padding: 5px;
+	text-align:center;
+}
+.tj-nav a:link, .tj-nav a:visited {
+	color:#FFF;
+	text-decoration:none;
+}
+.tj-nav a:hover {
+	color:#FFF;
+	text-decoration:underline;
+}
+
+
+.col-l{
+	float: left;
+	width: 100%;
+}
+.col-r{
+	float: left;
+	width: 100%;
+}
+/* end banner setup */  
+
+/* Content Header */
+.content-header {
+    /* box section */
+	background-color: rgba(154,6,9,1.00);
+    border-radius: 10px;
+    height: 48px;
+    width: 100%;
+    float: left;
+    position: relative;
+    margin: 10px 0px 0px 0px;
+	text-align: center;
+}
+.content-header-2 {
+    /* box section */
+	background-color: rgba(127,127,127,.75);
+	border:solid;
+	border-color: rgba(154,6,9,0.50);
+	border-radius: 10px;
+    height: auto;
+    width: 99.4%;
+    float: left;
+    position: relative;
+    margin: 10px 0px 0px 0px;
+	text-align: center;
+	padding-bottom: 5px;
+}
+.content-header h1, .content-header-2 h1 {
+	color: rgba(255,255,255,1);
+	padding: 5px;
+	font-size: 32px;
+	font-weight: bold;
+}
+.content-header-2  h1 {
+	color: rgba(154,6,9,1);
+	padding: 5px;
+	font-size: 24px;
+	font-weight: bold;
+}
+/* end content header */
+
+.content-header a:link, .content-header a:visited{
+	color:rgba(255,255,255,1);
+	text-decoration:underline;
+	line-height: 120%;
+}
+/* end content header */
+
+/* content section */
+.content  {
+	/* box section */
+	background-color: rgba(127,127,127,.75);
+	border:solid;
+	border-color: rgba(154,6,9,0.50);
+	border-radius: 10px;
+	position: relative;
+	clear: left;
+	float: left;
+	width: 96%;
+	padding: 10px;
+	margin: 10px 0px 0px 0px;
+}
+.content  h1, .contentR h1 {
+	font-size:24px;
+	color: rgba(154,6,9,1.00);	
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+.content h2, .contentR h2 {
+	font-size:18px;
+	color: rgba(0,0,0,1.00);	
+	font-weight: bold;
+	padding-top: 5px;
+}
+.content ul , .contentR ul{
+	margin-left:10px;
+	line-height: 1.2;
+}
+.content a:link, .content a:visited , .contentR a:link , .contentR a:visited{
+	color:#000;
+	text-decoration:underline;
+	line-height: 120%;
+}
+.content a:hover, .contentR a:hover {
+	color: rgba(154,6,9,1.00);
+} 
+.patents{
+		overflow: auto;
+		height:120px;
+		background-color: rgba(127,127,127,0);
+	}
+
+.contentR  {
+	/* box section */
+	background-color: rgba(127,127,127,.75);
+	border:solid;
+	border-color: rgba(154,6,9,0.50);
+	border-radius: 10px;
+	position: relative;
+	float: right;
+	width: 96%;
+	padding: 10px;
+	margin: 10px 0px 0px 0px;
+}
+.contentC  {
+	/* box section */
+	background-color: rgba(127,127,127,.75);
+	border:solid;
+	border-color: rgba(154,6,9,0.50);
+	border-radius: 10px;
+	position: relative;
+	clear: left;
+	float: left;
+	width: 97.3%;
+	padding: 10px;
+	margin: 10px 0px 0px 0px;
+}
+.links  {
+	/* box section */
+	background-color: rgba(127,127,127,.75);
+	border:solid;
+	border-color: rgba(154,6,9,0.50);
+	border-radius: 10px;
+	position: relative;
+	float: left;
+	width: 97%;
+	padding: 10px;
+	margin: 10px 0px 0px 0px;
+	text-align: center;
+	font-size:24px
+}
+.links a:link, .links a:visited {
+	color:#000;
+	text-decoration:underline;
+	line-height: 120%;
+}
+.links a:hover {
+	color: rgba(154,6,9,1.00);
+} 
+
+/* schedule table elements*/
+.schedule{
+	float: left;
+	width:100%;
+}
+.schedule ul{
+	list-style: none
+}
+th, td{
+	padding:5px;
+	text-align: center;
+	font-size: 14px;
+	vertical-align: middle;
+	text-wrap: normal;
+}
+th{
+	font-size:16px;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: rgba(0,0,0,1);
+	color: rgba(255,255,255,1);
+}
+td.text1{
+	text-align: left;
+	width:400px;		/* Schedule title*/
+}
+td.text2{
+	text-align: left;
+	width:300px;		/* Schedule attachments */
+}
+td.text3{
+	text-align: left;
+	width:550px;		/* 356 HW description */
+}
+td.text_split{
+	text-align: left;
+	padding:0px;
+	padding-left:8px;
+	width:50%;		/* 356 HW description */
+	font-size:16px;
+}
+th#title{
+	background-color: rgba(127,127,127,.75);
+	font-size: 30px;
+	font-weight: bold;
+	color:rgba(0,0,0,1);
+}
+tr{
+	background-color: rgba(227,227,227,.7);
+}
+tr.even{
+	background-color: rgba(227,227,227,.9);
+}
+tr.split_type{
+	background-color: rgba(127,127,127,0);
+}
+tr p{
+	margin:0px;
+}
+tr.major{
+	font-weight: bold;
+}
+
+/* end content section */
+
+/* FOOTER SECTION */
+.foot {
+    border-radius: 10px;
+    width: 940px;  /* width 960 - 2x padding */
+    padding: 10px;
+    margin: 10px 0px 0px 0px;
+    float: left;
+    position: relative;
+}
+	footer p{
+		float: left;
+		font-size: 12px;
+		top: 50%;
+		margin: 4px 0px 0px 0px;
+	}
+	footer h1{
+		text-align: center;
+		font-size:14px;
+	}
+	
+/* end footer section */
+
+
+/* end page setup */
+
+/*Desktop View*/
+
+@media (min-width : 960px ){
+	
+	.page {   /* set the page parameters */
+    max-width: 960px;  
+	}
+	
+	body {
+		max-width: 960px;
+	}
+	
+	.MSOE-Logo {
+		float: left;
+	}
+	
+	.MSOE-Nav {
+		float: left;
+	}
+	
+	.tj-logo {
+		float: right;
+	}
+	
+	.tj-nav {
+		float: right;
+	}
+	
+	.col-l{
+		width: 60%;
+	}
+	.col-r {
+		width: 40%;
+	}
+	.content{
+		width: 47%;
+	}
+	.contentR {
+		width: 47%;
+	}
+}

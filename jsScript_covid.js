@@ -1,0 +1,8 @@
+document.write('<header class="content-header">')
+document.write('			<h1>Congratulations to EVERYONE who made it through this term</h1>')
+document.write('		</header>')
+			   // JavaScript Document')
+document.write('<header class="content-header">')
+document.write('			<h1>Good Luck to all the SENIORS</h1>')
+document.write('		</header>')
+			   // JavaScript Document')

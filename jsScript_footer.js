@@ -1,0 +1,5 @@
+document.write('		<footer class="foot">')
+document.write('			<!-- place copyright here-->')
+document.write('			<p>&copy; 2024</p>')
+document.write('			<h1><a href="/johnsontimoj/Common/DOCS/atwp.pdf">About These Web Pages</a></h1>')
+document.write('		</footer>')
