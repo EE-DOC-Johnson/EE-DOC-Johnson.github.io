@@ -6,7 +6,7 @@ document.write('				<li>Office Hours: see calendar below, or by appointment</li>
 document.write('				<li>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp	')
 document.write('					<a href="/johnsontimoj/Common/DOCS/opendoor.pdf">See my open door policy</a></li>	')
 document.write('				<li>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp	')
-document.write('					<a href="/johnsontimoj/Common/DOCS/schedule.pdf">Weekly Calendar</a></li>	')
+document.write('					<a href="https://msoe365-my.sharepoint.com/:b:/g/personal/johnsontimoj_msoe_edu/EYcj3ZqM-5xJkBg749sWr0wBqyqAOtJTTL-IzjI98Rkq6Q?e=Yk31rt">Weekly Calendar</a></li>	')
 document.write('				<li>&nbsp</li>	')
 document.write('				<li>Office Phone: N/A</li>	')
 document.write('				<li>Email: <a href="mailto:johnsontimoj@msoe.edu">johnsontimoj@msoe.edu</a></li>	')
